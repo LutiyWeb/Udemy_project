@@ -43,4 +43,64 @@ const a = prompt('Один из последних просмотренных ф
     personalMovieDB.movies[a] = b;
     personalMovieDB.movies[c] = d;
 
-    console.log(personalMovieDB);
+    // console.log(personalMovieDB);
+
+
+// Урок по условиям
+
+if (4 == 9) {
+    console.log('Ok');
+} else {
+    console.log('error');
+}
+
+// const num = 50;
+
+// if (num < 49) {
+//     console.log('error');
+// } else if (num > 100) {
+//     console.log('много');
+// } else {
+//     console.log('Правильно');
+// }
+
+// (num === 50) ? console.log('Правильно') : console.log('error'); //Тернарный оператор
+
+// switch (num) {
+//     case 49:
+//         console.log('Не верно');
+//         break;
+//     case 100:
+//         console.log('Не верно');
+//         break;
+//     case 50:
+//         console.log('Верно');
+//         break;
+//     default:
+//         console.log('Не в этот раз');
+//         break;
+// }
+
+
+// Урок по циклам 
+
+let num = 50;
+
+while (num <= 55) {
+    console.log(num);
+    num++;
+}
+
+do {
+    console.log(num);
+    num++;
+} 
+while (num <= 55);
+
+for(let i = 1; i < 10; i++) {
+    if(i === 6) {
+        // break;
+        continue;
+    }
+    console.log(i);
+}
